@@ -15,20 +15,24 @@
     <div class="p-5 bg-background rounded-xl shadow-lg flex space-x-2 w-screen">
       <div class="flex grow">
         <div id="mainButton" class="box-content border cursor-pointer p-2 font-mono rounded">Main.</div>
-        <div id="aboutButton" class="box-content bg-slate-900 cursor-pointer p-2 font-mono text-slate-200 text-black rounded">About.</div>
+        <div id="aboutButton"
+          class="box-content bg-slate-900 cursor-pointer p-2 font-mono text-slate-200 text-black rounded">About.</div>
         <div id="teachingButton" class="box-content cursor-pointer p-2 font-mono rounded">Teaching.</div>
         <div id="blogButton" class="box-content cursor-pointer p-2 font-mono rounded">Blog.</div>
       </div>
-      <div class="cursor-pointer p-2 font-mono font-semibold">Overcaspe<span class="text-red">Red.</span></div>
+      <div class="hidden cursor-pointer p-2 font-mono font-semibold ssm:block">Overcaspe<span
+          class="text-red">Red.</span></div>
     </div>
-    <div id="main" class="font-mono container w-5/6 m-auto mt-5 mb-4">Hi there! <p class="py-2">My name is Gleb Pigulevsky
+    <div id="main" class="font-mono container w-5/6 m-auto mt-5 mb-4">Hi there! <p class="py-2">My name is Gleb
+        Pigulevsky
         and this is my personal page. </p> I am a frontend developer in an international company, an opensource
       contributor, and a teacher.</div>
     <div id="about" class="hidden font-mono container w-5/6 m-auto overflow-y-auto h-[calc(100vh-10rem)]">
       <h1 class="pt-2">About me and my life.</h1>
       <p class="py-2">Probably no one knows such a glorious city of Lida in which I was born and grew up. it is located
         in the western part of Belarus near the border with Lithuania. I also went to school there, where I got
-        acquainted with programming for the first time. My first program was a script written in pseudocode based on C++ in the
+        acquainted with programming for the first time. My first program was a script written in pseudocode based on C++
+        in the
         GameMaker game engine. It was back in 2003.</p>
       <p class="py-2">I also really like teaching people, no matter who, my son or an adult who needs to learn a new
         framework, I know how to find an approach to everyone</p>
@@ -41,10 +45,17 @@
     </div>
     <div id="teaching" class="hidden font-mono container w-5/6 m-auto mt-5">teaching</div>
     <div id="blog" class="hidden font-mono container w-5/6 m-auto mt-5 overflow-y-hidden">teaching</div>
-    <div class="p-6 font-mono absolute bottom-0 left-0 w-screen rounded-xl shadow-lgTop flex space-x-5"><a
+    <div class="p-6 font-mono absolute bottom-0 left-0 w-screen rounded-xl shadow-lgTop flex space-x-5 justify-between items-center">
+      <div display="grow">
+      <a
         href="https://github.com/glebpigulevsky" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a> <a
         href="https://www.linkedin.com/in/hleb-p-425745197/" target="_blank"><i
-          class="fa-brands fa-linkedin fa-xl"></i></a></div>
+          class="fa-brands fa-linkedin fa-xl"></i></a>
+        </div>
+      <div class="visible cursor-pointer font-mono font-semibold ssm:hidden">Overcaspe<span
+          class="text-red">Red.</span></div>
+    </div>
+
   </div>
 
 </body>

@@ -7,7 +7,8 @@ module.exports = {
       black: '#252323',
       slateGray: '#70798C',
       bone: '#DAD2BC',
-      grullo: '#A99985'
+      grullo: '#A99985',
+      red: 'rgb(220, 38, 38)'
     },
     extend: {
       boxShadow: {
@@ -16,4 +17,5 @@ module.exports = {
     },
   },
   plugins: [],
+  mode: 'jit'
 }
